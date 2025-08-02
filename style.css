@@ -1,0 +1,227 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  box-sizing: border-box;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 16px;
+  justify-content: space-around
+}
+
+.header_logo{
+  color: #ffffff;
+  align-items: center;
+  font-size: 40px;
+  
+}
+header_nav{
+  display: flex;
+  color:transparent;
+}
+a.header__nav--active {
+  background-color: #CBE300;
+  pointer-events: none;
+ cursor:col-resize;
+}
+
+
+
+
+nav li {
+  
+  display: inline;
+  background-color:bla ;
+  
+
+
+}
+.header_nav a:hover{
+  text-decoration: underline;
+}
+
+nav ul li a {
+  color: white;
+  
+  background-color: transparent;
+  padding: 10px 15px;
+  
+  text-decoration: none;
+   
+  color: #ffffff;
+  border-radius: 8px;
+}
+/* Exemplo: primeiro item com cor diferente */
+nav ul li:first-child {
+   background-color: #030303;
+}
+
+/* Exemplo: segundo item com fundo diferente */
+nav ul li:nth-child(2) {
+  background-color: #030303;
+}
+
+/* Exemplo: terceiro item com outra cor */
+nav ul li:nth-child(3) {
+   background-color: #030303;
+}
+nav ul li:nth-child(4) {
+   background-color: #030303;
+}
+   nav ul li a:hover {
+
+     color: white;
+     border-radius: 10px;
+   }
+nav ul{
+  background-color: transparent;
+}
+nav {
+  
+  list-style: none;
+  color: rgb(200, 255, 0);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+p {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 900;
+
+}
+
+
+
+a {
+  margin-left: 10px;
+  
+}
+
+.ESCOLHA {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 62px;
+  color: #ffffff;
+
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  
+
+}
+
+
+
+.containerPlanos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  
+}
+
+.essencial {
+  display: flex;
+  /* Usa Flexbox para facilitar o alinhamento interno */
+  flex-direction: column;
+  /* Organiza os elementos filhos em coluna (um embaixo do outro) */
+  width: 300px;
+  height: 450px;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+  background-color: aquamarine;
+ 
+
+}
+
+.preco {
+  background-color: aquamarine;
+  display: block;
+  text-align: center;
+  padding: 30px;
+}
+h1, .preco,.essencial{
+  background-color: #1F262C;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  gap: 15px;
+
+}
+
+ul.pricing-plan__features {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #ffffff;
+  font-size: 16px;
+  background:transparent;
+ 
+  
+}
+
+.pricing-plan__features li::marker {
+  color: #cbe300; /* marcador amarelo-limão */
+  display: inline-block;
+  
+
+  
+
+  
+  
+}
+.essencial,ul,li {
+  
+background-color: #1F262C;
+margin-bottom: 10px;
+
+}
+
+span{
+  background-color: #cbe300;
+  padding: 1px;
+  width: 200px;
+  display: flex;
+  
+  
+  
+}
+.assinar{
+  color: #000000;
+  background-color: #cbe300;
+   width: 200px;
+   height: 50px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   display: flex;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   border-radius: 10px;
+   margin-top: auto;
+   text-transform: uppercase;
+   border-color: #CBE300;
+   font-weight: bold;
+   text-decoration: none;
+}
+.default.asp{
+  background-color: cb#000000;
+}
+.assinar:hover{
+  background-color: transparent;
+  text-decoration: none;
+  color: #ffffff;
+  border: 2px solid #CBE300;
+
+}
+

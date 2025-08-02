@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="app.js"></script>
+    <title>Portifolio</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_logo">MyServer</div>
+        <nav class="header_nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html" class="header__nav--active">Planos</a></li>
+                <li><a href="index.html">Suporte</a></li>
+                <li><a href="index.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="ESCOLHA">
+        ESCOLHA O SEU PLANO
+    </div>
+
+    <!-- Início do container principal que agrupa os planos -->
+    <div class="containerPlanos"> <!-- PAI dos cards de planos -->
+
+        <!-- Card do plano ESSENCIAL -->
+        <div class="essencial"> <!-- FILHO de containerPlanos | PAI dos dois <p> abaixo -->
+
+            <!-- Nome do plano -->
+            <h1>ESSENCIAL</h1> <!-- FILHO de div.essencial -->
+
+            <!-- Preço do plano com classe para estilização -->
+            <p class="preco">R$ 3.95/mês <span> </span> </p>
+            <ul class="pricing-plan__features">
+                <li>1 Website</li>
+                <li>1GB de Armazenamento</li>
+                <li>10GB de transferência</li>
+            </ul>
+               
+            <a href="index.html" class="assinar">Assine Já</a>
+
+        </div> <!-- Fim do card ESSENCIAL -->
+        <!-- Card do plano ESSENCIAL -->
+        <div class="essencial"> <!-- FILHO de containerPlanos | PAI dos dois <p> abaixo -->
+            <!-- Nome do plano -->
+            <h1>PREMIUM</h1> <!-- FILHO de div.essencial -->
+            <!-- Preço do plano com classe para estilização -->
+            <p class="preco">R$ 7.95/mês <span> </span> </p>
+            <!-- FILHO de div.essencial -->
+            <ul class="pricing-plan__features">
+                <li>1 Website</li>
+                <li>1GB de Armazenamento</li>
+                <li>10GB de transferência</li>
+            </ul>
+            <a href="#" class="assinar">Assine Já</a>
+
+        </div> <!-- Fim do card ESSENCIAL -->
+        <!-- Card do plano ESSENCIAL -->
+
+        <div class="essencial"> <!-- FILHO de containerPlanos | PAI dos dois <p> abaixo -->
+            <!-- Nome do plano -->
+            <h1>Deluxe</h1> <!-- FILHO de div.essencial -->
+            <!-- Preço do plano com classe para estilização -->
+            <p class="preco">R$ 13.95/mês<br>
+                <span> </span>
+            </p>
+
+            <ul class="pricing-plan__features">
+                <li>1 Website</li>
+                <li>1GB de Armazenamento</li>
+                <li>10GB de transferência</li>
+                <li>10 horas de suporte mensais</li>
+            </ul>
+           <a href="#" class="assinar">Assine Já</a>
+
+
+        </div> <!-- Fim do card ESSENCIAL -->
+    </div> <!-- Fim do containerPlanos -->
+
+
+</body>
+
+</html>
